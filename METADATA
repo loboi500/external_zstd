@@ -1,19 +1,3 @@
-name: "zstd"
-description: "Zstandard - Fast real-time compression algorithm"
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://github.com/facebook/zstd"
-  }
-  url {
-    type: GIT
-    value: "https://github.com/facebook/zstd"
-  }
-  version: "v1.4.7"
-  license_type: RESTRICTED
-  last_upgrade_date {
-    year: 2020
-    month: 12
-    day: 17
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1acefaf1f20acc4c1cc0e21a5104f6cd989ffe7bf8aee1902bbbe3245edc1cc0
+size 356

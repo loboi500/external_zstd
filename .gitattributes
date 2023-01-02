@@ -1,21 +1,38 @@
 # Set the default behavior
 * text eol=lf
-
 # Explicitly declare source files
 *.c text eol=lf
 *.h text eol=lf
-
 # Denote files that should not be modified.
 *.odt binary
 *.png binary
-
 # Visual Studio
 *.sln text eol=crlf
 *.vcxproj* text eol=crlf
 *.vcproj* text eol=crlf
 *.suo binary
 *.rc text eol=crlf
-
 # Windows
 *.bat text eol=crlf
 *.cmd text eol=crlf
+Android.bp filter=lfs diff=lfs merge=lfs -text
+contrib filter=lfs diff=lfs merge=lfs -text
+programs filter=lfs diff=lfs merge=lfs -text
+tests filter=lfs diff=lfs merge=lfs -text
+appveyor.yml filter=lfs diff=lfs merge=lfs -text
+COPYING filter=lfs diff=lfs merge=lfs -text
+Makefile filter=lfs diff=lfs merge=lfs -text
+TESTING.md filter=lfs diff=lfs merge=lfs -text
+zlibWrapper filter=lfs diff=lfs merge=lfs -text
+CODE_OF_CONDUCT.md filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTING.md filter=lfs diff=lfs merge=lfs -text
+lib filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_BSD filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+build filter=lfs diff=lfs merge=lfs -text
+CHANGELOG filter=lfs diff=lfs merge=lfs -text
+doc filter=lfs diff=lfs merge=lfs -text
+examples filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
